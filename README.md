@@ -12,7 +12,7 @@ Example request: http://localhost:5000?name=orcun%20tuna
 | size | Image canvas size in  pixel. Must be integer. | 128 | No |
 | bg | Canvas background color. Can be color name or hex code. | Random | No |
 | color | Text color. Must be color name or hex code. | White | No |
-| font | Text font size. Must be integer. | White | No |
+| font | Text font size. Must be number. | size * 0.34 | No |
 | weight | Text font weight. Must be css font weight properties. | 600 | No |
 
 ## Installation
