@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
   const name = canvas.getContext('2d')
   const fontSize = canvas.width * 0.34
   name.font = `${params.weight} ${params.font || fontSize}px Arial`
-  name.fillStyle = '#FFFFFF'
+  name.fillStyle = params.color
 
   const text = getLettersOfName(params.name)
   name.textBaseline = 'middle';
