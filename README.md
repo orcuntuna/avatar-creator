@@ -8,7 +8,7 @@ Example request: http://localhost:5000?name=orcun%20tuna
 
 | Key | Description | Default | Required |
 | ------ | ------ | ------ | ------ |
-| name | User name and surname or username. There can be more than a word. |  | Yes |
+| name | User name and surname or username. There can be more than a word. | null | Yes |
 | size | Image canvas size in  pixel. Must be integer. | 128 | No |
 | bg | Canvas background color. Can be color name or hex code. | Random | No |
 | color | Text color. Must be color name or hex code. | White | No |
