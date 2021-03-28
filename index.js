@@ -32,4 +32,4 @@ app.get('/', (req, res) => {
 
 })
 
-app.listen(5000)
+module.exports = app
