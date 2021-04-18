@@ -20,6 +20,7 @@ Example request: http://localhost:5000?name=orcun%20tuna
 ```sh
 git clone git@github.com:orcuntuna/avatar.git
 cd avatar
+npm install
 npm run start
 ```
 
